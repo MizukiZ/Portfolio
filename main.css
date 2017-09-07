@@ -674,16 +674,17 @@ padding-top: 0.938em;
 }
 
 .content_about p{
+  min-width: 17.500em;
 padding-left: 0.625em;
 font-size: 16px;
-width :90%;
+width :80%;
 }
 
 .content_about #name{
  padding-left: 1.250em;
  font-size: 32px;
  width :100%;
- margin: 0.375em 0;
+ /*margin: 0.375em 0;*/
 }
 
 .content_about #school{
@@ -691,7 +692,7 @@ font-size: 16px;
 }
 
 .content_about #express{
- margin-top :0.813em;
+ /*margin-top :0.813em;*/
  min-width: 42.500em;
 }
 
@@ -744,8 +745,8 @@ margin-bottom:  0.938em;
 }
 
 .content_project p{
-width :75%;
-font-size: 8px;
+width :80%;
+font-size: 7px;
 }
 
 .content_project span{
@@ -753,10 +754,10 @@ font-size: 10px;
 }
 
 .content_project img{
-width :60px;
-height :60px;
-border-radius: 10px;
-right: -70%;
+width :40px;
+height :40px;
+border-radius: 7px;
+right: -75%;
 }
 
 /*contact setting*/
