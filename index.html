@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="main.css">
+  <title>Portfolio</title>
+
+                 <!-- google fonts links -->
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+
+                  <!-- original icon links -->
+  <link rel="apple-touch-icon" sizes="180x180" href="logo/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="logo/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="logo/favicon-16x16.png">
+  <link rel="manifest" href="logo/manifest.json">
+  <link rel="mask-icon" href="logo/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="theme-color" content="#ffffff">
+
+</head>
+<body>
+  <input type="radio" name="switch" id="tab-home" checked>
+  <input type="radio" name="switch" id="tab-about" >
+  <input type="radio" name="switch" id="tab-project">
+  <input type="radio" name="switch" id="tab-contact">
+  <header>
+    <h1>Mizuki Zenta</h1>
+    <p>Junior Developer</p>
+  </header>
+
+<ul class="tabBtn">
+  <li><label for="tab-home">Home</label></li>
+  <li><label for="tab-about">About me</label></li>
+  <li><label for="tab-project">Project</label></li>
+  <li id="contact_top"><label for="tab-contact">Contact</label></li>
+</ul>
+
+   <!-- pic backgrounds -->
+<div class="mask_about"></div>
+<div class="mask_project"></div>
+<div class="mask_contact"></div>
+
+    <!-- contents and its display -->
+<div class="dis">
+ <div class="slideWrap">
+  <div class="content_home">
+  “Thank you for visiting my portfolio site.”
+    <p>- Mizuki Zenta(1989-)</p>
+  </div>
+  <div class="content_about">
+    <p>Hello, I am</p>
+    <p id="name">Mizuki Zenta.</p>
+    <p>currently studying at <a href="https://coderacademy.edu.au/" id="school" target=”_blank”>coder academy</a> to be a backend developer. </p>
+    <p id="express"><span>Passion :</span> coding , boardsports<br>
+      <span>Language :</span> English , Japanese</p>
+      <ul id="skills">
+        <p>Skills list</p>
+        <li>HTML5</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Ruby</li>
+        <li>Ruby on rails</li>
+        <li>React</li>
+      </ul>
+      <a href="assets/resume.docx" id="resume"><img src="assets/resume4.png" alt="resumelogo"></a>
+  </div>
+  <div class="content_project">
+    <h1>Mizuki/projects/page</h1>
+  <div class="content_top">
+    <h2>$ Japanese Fridge Project</h2>
+    <p><span>:creation date & time</span> <br>
+ >10 ~14 th of August 2017 : approximately 20 hours <br>
+<span>:Description</span> <br>
+>This is a first project I have done since I start
+learning Ruby and also it was the first time to
+ work as team.This terminal application shows
+Japanese recipes you can cook with what you
+have in your fridge. </p>
+<a href="https://github.com/MizukiZ/Fridge_project-first-" target=”_blank”><img src="assets/FridgeLogo.png" alt="fridgelogo"></a>
+  </div>
+
+  <div class="content_bottom">
+    <h2>$ Birthday reminder app</h2>
+    <p><span>:creation date & time</span> <br>
+ >19 ~ 26 th of August 2017  : approximately 25 hours <br>
+<span>:Description</span> <br>
+>This is a birthday reminder app and first solo
+project.You get remind messages not to
+ forget birthdays of people you love.when
+any birthday you registered is within a week,
+it will send you a remind massage.</p>
+<a href="https://github.com/MizukiZ/Birthday-reminder-app-Ruby-" target=”_blank”><img src="assets/birthdayLogo.png" alt="birthdaylogo"></a>
+  </div>
+  </div>
+  <div class="content_contact">
+    <div class="contact_head">
+      <div id="mail"><img src="assets/mail.png" alt="maillogo"><span>..........@gmail.com</span></div>
+      <div id="phone"><img src="assets/phone.png"
+        alt="phonelogo"><span>0000-0000-00</span></div>
+    </div>
+   <div class="contact_form">
+     <div id="your">
+     <input type="text" name="firstname" placeholder="Your name">
+     <input type="text" name="email" placeholder="Your email address">
+     <input type="text" name="phone" placeholder="Your phone number">
+   </div>
+   <textarea name="" placeholder="Massage"></textarea>
+   </div>
+   <div class="contact_bottom">
+     <div id="git"><a href="https://github.com/MizukiZ"><img src="assets/github.png" alt="gitlogo" target=”_blank”><span>My GitHub</span></a></div>
+     <div id="submit"><input id="submit_button" type="submit" name="submit" value="Send"></div>
+   </div>
+  </div>
+ </div>
+</div>
+<label for="tab-contact" id="contact_bottom">Contact</label>
+</body>
+</html>
