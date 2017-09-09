@@ -6,7 +6,7 @@ My portfolio
 
 I was trying to keep my portfolio simple and concise, because my audiences are potential employers and what they see through my portfolio is not my artistry but my personality as a developer. Especially I paid a lot of attention to make it single page site so that once people visit my site they can get the important information without jumping other pages or scrolling down to the bottom of it.
 
-#Design decision
+# Design decision
 
 As I mentioned before, a simple site was my concept, so first I looked for simple sites to get some inspiration.
 I made a inspiration summary on Figma.  
