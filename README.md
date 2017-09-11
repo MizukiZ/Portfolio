@@ -24,6 +24,12 @@ I predesignated using Figma.
 # Style guide
 I made the style guide on Figma.  
 [Style guide](https://www.figma.com/file/TR3NKp1BxX0V7DLQZmQKaieG/Portfolio-design-guide)
+
+# Challenge
+I decided to use only HTML and CSS because I really wanted to develop fundamental skills of those and It is also an important skill to perform in the restricted condition.
+My biggest challenge was to make the slide animation without Javascript.  To be honest, I thought I needed to use Javascript to make  the animation but, when I searched it, it is actually possible and CSS can do a lot more things than I expected. 
+[Slide animation](https://www.figma.com/file/Rd4L1rMFQcpLFnN4Wmn4Ci/Slide-system)
+
 # publish
 my portfolio is published through Netlify.  
 [My portfolio live](https://mizukiportfolio.netlify.com)
